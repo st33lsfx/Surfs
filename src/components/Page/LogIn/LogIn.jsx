@@ -1,5 +1,5 @@
 import Navigation from "../Navigation/Navigation";
-import logo from "../../../images/logo1.svg";
+import logo from "../../../images/logo-black.svg";
 import { Checkbox, Label, TextInput } from "flowbite-react";
 import {Link} from "react-router-dom";
 import React, {useState} from "react";

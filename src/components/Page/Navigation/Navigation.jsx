@@ -1,6 +1,6 @@
 import links from '../../../navigation'
-import logo from "../../../images/logo.svg"
-import logoColor from "../../../images/logo.jpg"
+import logo from "../../../images/logo-white.svg"
+import logoColor from "../../../images/logo-color.jpg"
 import {useState} from 'react'
 import {Bars3Icon, XMarkIcon} from "@heroicons/react/20/solid";
 import {Dialog} from "@headlessui/react";
