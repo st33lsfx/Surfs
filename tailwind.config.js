@@ -9,6 +9,7 @@ module.exports = {
       backgroundImage: {
         'background': "url('/src/images/waves1.jpg')",
         'course': "url('/src/images/Course.jpg')",
+        'surfing': "url('/src/images/surfing.jpg')",
       },
       fontFamily: {
         'permanent': ['Gloria Hallelujah', 'cursive']
