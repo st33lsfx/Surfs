@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @responsive {
+        .hide {
+            height: 0;
+            overflow: hidden;
+            transition: all 0.1s linear;
+        }
+
+        .show {
+            height: auto;
+            transition: all 0.1s linear;
+        }
+    }
+}
