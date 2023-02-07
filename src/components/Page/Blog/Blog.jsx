@@ -1,8 +1,12 @@
+import Footer from "../Footer/Footer";
 
-const Blog = () => {
+function Blog(props) {
     return (
-        <div>Blog</div>
-    )
+        <div>
+            Blog
+            <Footer/>
+        </div>
+    );
 }
 
-export default Blog
+export default Blog;

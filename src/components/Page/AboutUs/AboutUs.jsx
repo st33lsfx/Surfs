@@ -1,7 +1,11 @@
+import Footer from "../Footer/Footer";
 
 function AboutUs(props) {
     return (
-        <div>About</div>
+        <div>
+            About
+            <Footer/>
+        </div>
     );
 }
 

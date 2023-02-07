@@ -1,7 +1,12 @@
+import Footer from "../Footer/Footer";
 
 const Contact = () => {
     return (
-        <h1>Contact</h1>
+        <div>
+            <h1>Contact</h1>
+            <Footer/>
+        </div>
+
     )
 }
 
