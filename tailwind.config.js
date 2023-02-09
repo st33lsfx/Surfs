@@ -10,6 +10,8 @@ module.exports = {
         'background': "url('/src/images/waves1.jpg')",
         'course': "url('/src/images/Course.jpg')",
         'surfing': "url('/src/images/surfing.jpg')",
+        'reviews': "url('/src/images/reviews.jpg')",
+        'about': "url('/src/images/about.webp')",
       },
       fontFamily: {
         'permanent': ['Gloria Hallelujah', 'cursive']
@@ -17,6 +19,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    require('@tailwindcss/line-clamp'),
   ]
 }

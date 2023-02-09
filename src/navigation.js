@@ -6,8 +6,8 @@ const navlinks = [
     },
     {
         id: 2,
-        name: 'Blog',
-        url: '/blog'
+        name: 'Reviews',
+        url: '/reviews'
     },
     {
         id: 3,
@@ -19,11 +19,6 @@ const navlinks = [
         name: 'About',
         url: '/about',
     },
-    {
-        id: 5,
-        name: 'Contact',
-        url: "/contact"
-    }
 ]
 
 export default navlinks

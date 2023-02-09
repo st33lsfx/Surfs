@@ -1,12 +1,11 @@
 import Navigation from "../Navigation/Navigation";
+import Footer from "../Footer/Footer";
 import logo from "../../../images/logo-black.svg";
 import { Checkbox, Label, TextInput } from "flowbite-react";
 import {Link} from "react-router-dom";
-import React, {useState} from "react";
+import {useState} from "react";
 import {toast, ToastContainer} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Footer from "../Footer/Footer";
-
 
 const LogIn = () => {
 
@@ -44,11 +43,11 @@ const LogIn = () => {
     }
 
     return (
-        <div className="absolute top-0 left-0 z-0 w-full visible-inherit opacity-100 h-full">
-            <div className="isolate bg-surfing bg-cover bg-repeat bg-center w-full opacity-100 h-full">
+        <div className="absolute top-0 left-0 z-0 w-full visible-inherit opacity-100">
+            <div className="isolate bg-surfing bg-cover bg-repeat bg-center w-full opacity-100">
                 <Navigation/>
                 <ToastContainer />
-                <div className="flex flex-col flex-wrap items-center justify-between mt-24 mx-auto">
+                <div className="flex flex-col justify-center items-center h-screen m-auto">
                     <form
                         onSubmit={handleFormSubmit}
                         className="flex flex-col w-96 justify-between gap-4 shadow-xl border p-10 border rounded-lg backdrop-opacity-60 backdrop-invert bg-white/30 "

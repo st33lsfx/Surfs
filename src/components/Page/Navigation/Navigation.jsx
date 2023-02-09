@@ -12,7 +12,7 @@ const Navigation = () => {
         <div>
             <nav className="flex items-center justify-between pt-6" aria-label="Global">
                 <div className="flex lg:flex-1">
-                    <a href="#" className="-m-1.5 p-1.5">
+                    <a href="/" className="-m-1.5 p-1.5">
                         <img className="h-24 ml-4" src={logo} alt="logo"/>
                     </a>
                 </div>
@@ -43,7 +43,7 @@ const Navigation = () => {
             <Dialog as="div" open={showMenu} onClose={setShowMenu}>
                 <Dialog.Panel focus="true" className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
                     <div className="flex items-center justify-between">
-                        <a href="#" className="-m-1.5 p-1.5">
+                        <a href="/" className="-m-1.5 p-1.5">
                             <img className="h-20" src={logoColor} alt="logo"/>
                         </a>
                         <button

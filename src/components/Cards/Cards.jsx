@@ -90,7 +90,7 @@ function Cards() {
                 </div>
             </ReactCardFlip>
             <ReactCardFlip isFlipped={courseThree} flipDirection="horizontal">
-                <div onPointerEnter={() => setCourseThree(true)}>
+                <div onPointerEnter={() => setCourseThree(true)} className="mb-10 md:mb-0">
                     <div className="flex justify-center items-center">
                         <div className="rounded-lg shadow-lg bg-white max-w-sm mt-20">
                             <div className="p-6 h-96 w-80">
@@ -106,7 +106,7 @@ function Cards() {
                     </div>
                 </div>
 
-                <div onPointerLeave={() => setCourseThree(false)}>
+                <div onPointerLeave={() => setCourseThree(false)} className="mb-10 md:mb-0">
                     <div className="flex justify-center items-center">
                         <div className="rounded-lg shadow-lg bg-white max-w-sm mt-20">
                             <div className="p-6 h-96 w-80">
