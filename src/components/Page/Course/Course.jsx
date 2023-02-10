@@ -1,11 +1,8 @@
 import Cards from "../../Cards/Cards"
 import Navigation from "../Navigation/Navigation";
-import {useState} from "react";
 import Footer from "../Footer/Footer";
 
 const Course = () => {
-
-    const [isFlipped, setIsFlipped] = useState(false);
 
     return (
         <div className="absolute top-0 left-0 z-0 w-full visible-inherit opacity-100 md:h-full">

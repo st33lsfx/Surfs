@@ -11,19 +11,9 @@ const LogIn = () => {
 
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
-    const [users, setUsers] = useState([])
 
     const handleFormSubmit = (e) => {
         e.preventDefault()
-
-        if (email && password) {
-            const oneUser = {email, password}
-            setUsers((users) => {
-                return [...users, oneUser]
-            })
-        } else {
-            console.log("nebylo nic vyplněno")
-        }
 
         if (email === "admin@admin.cz" && password === "test") {
             toast.success("Uživatel úspěšně přihlášen", {
